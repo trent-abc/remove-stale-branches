@@ -70,7 +70,7 @@ jobs:
     name: Remove Stale Branches
     runs-on: ubuntu-latest
     steps:
-      - uses: fpicalausa/remove-stale-branches@v1.6.0
+      - uses: fpicalausa/remove-stale-branches@v2.4.0
         with:
           dry-run: true # Check out the console output before setting this to false
 ```
@@ -89,7 +89,7 @@ jobs:
     name: Remove Stale Branches
     runs-on: ubuntu-latest
     steps:
-      - uses: fpicalausa/remove-stale-branches@v1.6.0
+      - uses: fpicalausa/remove-stale-branches@v2.4.0
         with:
           dry-run: true # Check out the console output before setting this to false
           exempt-organization: "acme-inc"
